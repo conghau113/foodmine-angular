@@ -1,0 +1,22 @@
+@import "/src/styles.scss";
+header {
+  padding: 0;
+  border-bottom: 1px solid $secondary-color;
+  background: #fff;
+  a {
+    color: $primary-color;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    transition: $default-transition;
+    &:hover {
+      color: #fff;
+      background: $secondary-color;
+      transition: $default-transition;
+    }
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
