@@ -1,0 +1,23 @@
+@import "/src/styles.scss";
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  li {
+    a {
+      // 20x16px
+      height: 24rem;
+      width: 20rem;
+      border: 1px solid rgb(237, 237, 237);
+      border-radius: 1rem;
+      margin: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      color: $primary-color;
+    }
+  }
+}
